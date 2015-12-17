@@ -33,7 +33,7 @@ if (Windows.System.Power.PowerManager.batteryStatus === batteryStatusEnum.notPre
 }
 ```
 
-Available battery statuses are: `notPresent`, `discharging`, 'idle' and `charging`.
+Available battery statuses are: `notPresent`, `discharging`, `idle` and `charging`.
 You can also get percentage of charged battery and remaning time (See `index.js` for full samples).
 
 #### Reading/writing file in known windows folders, like pictures, documents, videos etc.
