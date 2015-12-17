@@ -1,6 +1,6 @@
 ## Universal Windows Platform (uwp) samples using JXcore
 
-With the help of uwp api you can use windows specific methods such as detecting devices connected or reading files from special folders... JXcore allows to do it with JavaScript. It supports multiple JavaScript engines. If you build JXcore with chakra engine, then you will get uwp support. To build JXcore chakra engine you will need Visual studio 2015 installed on Windows 10.
+With the help of uwp api you can use windows specific methods such as detecting devices connected or reading files from special folders etc. JXcore allows to do it with JavaScript. It supports multiple JavaScript engines. If you build JXcore with chakra engine, then you will get uwp support. To build JXcore chakra engine you will need Visual studio 2015 installed on Windows 10.
 
 ### Build
 
