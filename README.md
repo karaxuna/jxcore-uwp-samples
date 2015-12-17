@@ -47,7 +47,7 @@ Windows.Storage.KnownFolders.picturesLibrary.createFileAsync('sample.png',
 	});
 ```
 
-### Check if mouse is present:
+#### Check if mouse is present:
 
 ```javascript
 var mouseCapabilities = new Windows.Devices.Input.MouseCapabilities();
