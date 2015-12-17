@@ -23,7 +23,7 @@ To run samples, cd to samples directory and run:
 <path-to-jxcore>/Release/jx.exe index.js
 ```
 
-### uwp api call examples
+### UWP api call examples
 
 #### Battery status:
 
