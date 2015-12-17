@@ -25,6 +25,13 @@ To run samples, cd to samples directory and run:
 
 ### Uwp api call examples
 
+First, you have to define Windows namespace:
+
+```javascript
+var uwp = jxcore.uwp;
+uwp.projectNamespace("Windows");
+```
+
 #### Battery status:
 
 ```javascript
