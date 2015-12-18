@@ -2,7 +2,7 @@
 
 With UWP API you can use Windows specific methods such as detecting devices connected or reading files from special folders [etc](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
 
-JXcore is fork of nodejs and supports multiple JavaScript engines. If you build it with chakra engine on Windows 10 and Visual Studio 2015, you will be able to use UWP api.
+JXcore is fork of nodejs and supports multiple JavaScript engines. If you build it with chakra engine on Windows 10 and Visual Studio 2015, you will be able to use UWP API.
 
 ### Build
 
