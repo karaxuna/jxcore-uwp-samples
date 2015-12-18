@@ -1,8 +1,8 @@
-## Universal Windows Platform (uwp) samples using JXcore
+## Universal Windows Platform (UWP) samples using JXcore
 
-With uwp api you can use windows specific methods such as detecting devices connected or reading files from special folders [etc](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
+With UWP API you can use Windows specific methods such as detecting devices connected or reading files from special folders [etc](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
 
-JXcore is fork of nodejs and supports multiple JavaScript engines. If you build it with chakra engine on Windows 10 and Visual Studio 2015, you will be able to use uwp api.
+JXcore is fork of nodejs and supports multiple JavaScript engines. If you build it with chakra engine on Windows 10 and Visual Studio 2015, you will be able to use UWP api.
 
 ### Build
 
@@ -25,7 +25,7 @@ To run samples, cd to samples directory and run:
 <path-to-jxcore>/Release/jx.exe index.js
 ```
 
-### Uwp api call examples
+### UWP API call examples
 
 First you  have to define which namespace you need (`Windows` in this case):
 
@@ -86,4 +86,4 @@ if (!mouseCapabilities.keyboardPresent) {
 
 After completing all the calls you have to call `uwp.close()` to release uwp or the process won't finish.
 
-You can find more information about windows api [here](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
+You can find more information about Windows API [here](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
