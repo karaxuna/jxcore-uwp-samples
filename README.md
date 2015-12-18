@@ -51,6 +51,19 @@ if (batteryStatus === batteryStatusEnum.notPresent) {
 }
 ```
 
+#### Localized date
+
+```javascript
+var date = new Windows.Globalization.Calendar(['ka-ge']);
+var localized = [
+	date.eraAsString() + ' ' + date.yearAsString(),
+	date.dayOfWeekAsString(),
+	date.dayAsString() + ' ' + date.monthAsString()
+].join(', ');
+console.log('Localized date:', localized);
+console.log('Number of days in current month:', date.numberOfDaysInThisMonth);
+```
+
 #### Reading/writing file in known windows folders, like pictures, documents, videos etc.
 
 ```javascript

@@ -1,6 +1,16 @@
 var uwp = jxcore.uwp;
 uwp.projectNamespace("Windows");
 
+// date
+var date = new Windows.Globalization.Calendar(['ka-ge']);
+var localized = [
+	date.eraAsString() + ' ' + date.yearAsString(),
+	date.dayOfWeekAsString(),
+	date.dayAsString() + ' ' + date.monthAsString()
+].join(', ');
+console.log('Localized date:', localized);
+console.log('Number of days in current month:', date.numberOfDaysInThisMonth);
+
 // check battery status
 var batteryStatus = Windows.System.Power.PowerManager.batteryStatus;
 var batteryStatusEnum = Windows.System.Power.BatteryStatus;
