@@ -62,7 +62,7 @@ Windows.Storage.KnownFolders.picturesLibrary.createFileAsync('sample.png',
 	});
 ```
 
-* Methods that end with `Async` are asynchronous and return promise.
+*Methods that end with `Async` are asynchronous and return promise.
 
 #### Input devices:
 
