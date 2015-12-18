@@ -85,4 +85,5 @@ if (!mouseCapabilities.keyboardPresent) {
 ```
 
 After completing all the calls you have to call `uwp.close()` to release uwp or the process won't finish.
+
 You can find more information about windows api [here](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
